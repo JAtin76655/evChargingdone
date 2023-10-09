@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="charging_rates">
+        <item>90 min</item>
+        <item>60 min </item>
+        <item>30 min</item>
+        <!-- Add more charging rates as needed -->
+    </array>
+</resources>

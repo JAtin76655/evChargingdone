@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1007534649974",
+    "firebase_url": "https://evcharging-45071-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "evcharging-45071",
+    "storage_bucket": "evcharging-45071.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007534649974:android:1af7c29a432b16af132557",
+        "android_client_info": {
+          "package_name": "com.example.evcharging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007534649974-hbest8550dtko7shv9tdb8rn5klrg5tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.evcharging",
+            "certificate_hash": "bf336bd450155482a7129de6b73467cb33b7fb5b"
+          }
+        },
+        {
+          "client_id": "1007534649974-bh0iribm1kpflljd2unlvoasntar4hfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK1vb-8HyHgNAawVnM6aaZmgk6MKU2yps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007534649974-bh0iribm1kpflljd2unlvoasntar4hfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

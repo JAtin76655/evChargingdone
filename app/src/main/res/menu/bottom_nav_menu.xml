@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <item android:title="@string/location"
+        android:id="@+id/nav_main"
+        android:icon="@drawable/ln"/> -->
+    <item android:title="@string/charge1"
+        android:id="@+id/nav_charge"
+        android:icon="@drawable/ch"/>
+    <item android:title="@string/booking1"
+        android:id="@+id/nav_book"
+        android:icon="@drawable/bk"/>
+    <item android:title="add"
+        android:id="@+id/nav_info"
+        android:icon="@drawable/add_location"/>
+    <item android:title="@string/profile1"
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/pr"/>
+</menu>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".PaymentActivity"
+
+    android:background="@drawable/bh">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/make_payment"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/white"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="564dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectan"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/animation_lni03djb"
+            app:lottie_loop="true"
+            android:layout_marginLeft="65dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_gravity="fill_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Select Charging Rate :"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/chargingRateSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/totalAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="Total Payable Amount: ₹0"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:text="Enter Credit Card Details:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/cardNumberEditText"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:maxLength="16"
+           android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Card Number"
+            android:inputType="number" />
+
+        <LinearLayout
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+
+            <EditText
+                android:id="@+id/cardExpiryEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="fill_vertical"
+                android:maxLength="5"
+                android:hint="Expiry Date (MM/YY)"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/cardCvvEditText"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:maxLength="3"
+                android:hint="CVV"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/payButton"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/cir"
+            android:text="@string/pay"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
